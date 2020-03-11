@@ -5,3 +5,4 @@
 ## Tech Stack
 * Front End: JavaScript, React, React Redux, D3
 * Back End: Python, Django, MongoDB / PostgreSQL (undecided)
+* Trello Board: https://trello.com/b/9mDmaZDm/movie-night
