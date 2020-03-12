@@ -9,7 +9,7 @@ const Search = ({handleUpdateSearch, handleUpdateSearchTime, searchTime}) => {
   }
   const handleChange = (e) => {
     e.preventDefault();
-    if (Date.now() > searchTime + 5000) {
+    if (Date.now() > searchTime + 2000) {
       const query = e.target.value;
       handleUpdateSearch(query);
       handleUpdateSearchTime(Date.now());

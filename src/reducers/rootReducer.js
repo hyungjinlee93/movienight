@@ -3,8 +3,8 @@ import searchResultsReducer from './searchResults';
 import searchTimeReducer from './searchTime';
 
 const rootReducer = combineReducers({
-  searchResults: searchResultsReducer,
-  searchTime: searchTimeReducer
+  'searchResults': searchResultsReducer,
+  'searchTime': searchTimeReducer
 });
 
 export default rootReducer;

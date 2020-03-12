@@ -1,5 +1,6 @@
 import React from 'react';
 import SearchContainer from '../containers/searchContainer';
+import SearchResultsContainer from '../containers/searchResultsContainer';
 
 const App = function () {
   return (
@@ -7,6 +8,7 @@ const App = function () {
       <div>Hello World</div>
       <div>
         <SearchContainer />
+        <SearchResultsContainer />
       </div>
     </div>
   )
