@@ -1,7 +1,6 @@
-import Redux from 'redux';
-
-const searchResultsReducer = (state = null, action) => {
-  if (action.type === 'UPDATE_SEARCH') {
+const searchResultsReducer = (state = [], action) => {
+  if (action.type === 'UPDATE_RESULTS') {
+    debugger;
     return action.results;
   } else {
     return state;
