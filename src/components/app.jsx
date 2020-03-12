@@ -1,14 +1,16 @@
 import React from 'react';
+import SearchContainer from '../containers/searchContainer';
+import SearchResultsContainer from '../containers/searchResultsContainer';
 
-class Main extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-  render() {
-    return (
-      <div>Hello World</div>
-    )
-  }
+const App = function () {
+  return (
+    <div>
+      <div>Movie Night</div>
+      <div>
+        <SearchContainer />
+        <SearchResultsContainer />
+      </div>
+    </div>
+  )
 }
-export default Main;
+export default App;
