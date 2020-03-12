@@ -5,7 +5,7 @@ import SearchResultsContainer from '../containers/searchResultsContainer';
 const App = function () {
   return (
     <div>
-      <div>Hello World</div>
+      <div>Movie Night</div>
       <div>
         <SearchContainer />
         <SearchResultsContainer />
